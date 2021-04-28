@@ -1,0 +1,86 @@
+h3 p {
+  text-align: center;
+}
+
+.nav-food {
+  color: white;
+}
+
+.col-sm-12 {
+  border: 2px solid slategray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: slategray;
+  color: black;
+}
+
+.menu {
+  text-align: center;
+}
+
+#nav-list {
+  background-color: slategray;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+/* header */
+.navbar-brand {
+  position: relative;
+  top: -15px;
+}
+
+.dropdown {
+  visibility: hidden;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 2116px) {
+/* header */
+.navbar-brand {
+  position: relative;
+  top: -30px;
+}
+
+.dropdown {
+  visibility: hidden;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+/* header */
+.navbar-brand {
+  position: relative;
+  top: -30px;
+}
+
+.dropdown {
+  visibility: hidden;
+}
+
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/* header */
+.navbar-brand {
+  position: relative;
+  top: -30px;
+}
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* header */
+  .navbar-brand {
+    position: relative;
+    top: -30px;
+  }
+
+}
